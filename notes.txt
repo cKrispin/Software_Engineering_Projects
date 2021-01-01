@@ -1,0 +1,115 @@
+# Git Commands
+
+# Commit changes
+# Create files on local repository
+
+
+# Push to remote repository
+
+
+# Modifes files
+# Stage files
+# Commited Files
+
+ """
+ COMMANDS 
+ """
+ 
+ # git config --global user.name "Crispin Kalala"
+ # git config --global user.email crispinkalala@gmail.com
+ 
+ # git config --global core.editor "vim"
+ # git config --list
+ 
+ # git help
+ # git help add
+ 
+ # quitt or q to get out of that
+ 
+ # clear that works as well
+ 
+ """ TRACKING A DIRECTORY """
+ 
+ """ Start saving files in a directory on your computer """
+ """ very first you gonna wanna do is
+ 
+ ### If you wanna start saving files inside this directory """
+ # git init
+ 
+ """ Tracking specific files like changes on evey job files """
+ # git add *.java for java files
+ # git add AndroidManifest.xml
+ 
+ """ Stage """
+ # git commit -m 'Initial Project Version'
+ 
+ # git status
+ 
+ """ Staging a files : Making change to a file"""
+ """ Stageing, committed and two versions on the system"""
+ 
+ # git diff -> to see the difference between two versions
+ # git add AndroidManifest.xml to commit it
+ # now it has been staged
+ 
+ # git diff --cached to show what has been staged and what has 
+ # has been committed
+ 
+ """ Commit the changes """
+ # git commit
+ """ Describe the problem addressed, the specific changes,result of the changes
+ future improvement, close the bug 
+ hit enter, escape :qw to save changes"""
+ 
+ """ Skip the staging and commit message """
+ # git commit -a -m 'Changed Comment added 2'
+ # change comment added 2
+ 
+ """ Remove a file inside the git """
+ # git add DeleteMe.txt
+ # git rm DeleteMe.txt "cannot be deleted use forced remove"
+ # git rm -f DeleteMe.txt
+ 
+ """ Putting it back in the staging area """
+ # git add DeleteMe2.txt
+ # git rm --cached DeleteMe2.txt remove it from the system but 
+ # keeps it in the stagging area
+ # check by using ls, status
+ 
+ # git commit -m 'Initial Project Version'
+ # rename the file: git mv DeleteMe.txt Delete.txt
+ 
+ """ Log For the First """
+ # git log and press q to get out of that
+ # git log --pretty=oneline
+ # git log --pretty=format:"%h : %an : %ar : %s"
+ # git log -p -2 (to see the last two commit)
+ # git log --status
+ # git log --since=1.weeks
+ 
+ """ Undo a commit """
+ 
+ # git and Delete.txt
+ # git commit -m 'Random Change'
+ 
+ # git commit --amend, wq
+ 
+ """ Unstade the files """
+ # git add Delete.txt
+ # git reset HEAD Delete.txt
+ 
+ """ Remote Repositories: 
+     - Git, Remote Repositories, GitHub, Push, Pull,
+	   Aliases and Tags
+  """
+  
+  """ Push from local repository to remote repository """
+  # git remote add origin https://github.com/cKrispin/Software_Engineering_Projects.git
+  # git push origin master
+ 
+ """ Pull from remote to local repository """
+ 
+ 
+ 
+ 
+ 
